@@ -9,9 +9,6 @@ from selenium.webdriver.support import expected_conditions
 
 def test_1():
     # Inputs
-    user = "biller+demo@zentist.io"
-    pwd = "ZVBJsGT2juVRm$WXirZbLLXLj"
-    url = "https://stage.zentist.io/"
 
     EMAIL_INPUT = (By.CSS_SELECTOR, '[data-testid="email"]')
     PASSWORD_INPUT = (By.CSS_SELECTOR, '[data-testid="password"]')
