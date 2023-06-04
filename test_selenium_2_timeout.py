@@ -5,9 +5,6 @@ from selenium.webdriver.common.by import By
 
 def test_1():
     # Inputs
-    user = "biller+demo@zentist.io"
-    pwd = "ZVBJsGT2juVRm$WXirZbLLXLj"
-    url = "https://stage.zentist.io/"
 
     EMAIL_INPUT = (By.CSS_SELECTOR, '[data-testid="email"]')
     PASSWORD_INPUT = (By.CSS_SELECTOR, '[data-testid="password"]')
