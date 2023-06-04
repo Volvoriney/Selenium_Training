@@ -8,9 +8,6 @@ from datetime import timedelta, date, datetime
 
 def test_recieved_on_filter():
     # Inputs
-    user = "bogdan_DSO@zentist.io"
-    pwd = "uJN7GdsHvXgEGtLZCF3I"
-    url = "https://stage.zentist.io/"
 
     # Selectors
     EMAIL_INPUT = (By.CSS_SELECTOR, '[data-testid="email"]')
